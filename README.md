@@ -1,4 +1,4 @@
-# angely-yu-webdev
+# angela-yu-webdev-projects
 
 ## About
 
