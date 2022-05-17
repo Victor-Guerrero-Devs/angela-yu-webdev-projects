@@ -167,6 +167,10 @@ p {
   width: 70%;
 }
 
+.skill-two-container {
+  margin-bottom: 4.5rem;
+}
+
 .image-container {
   width: 50%;
 }
@@ -181,4 +185,10 @@ p {
 
 .text-container h3 {
   margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background: var(--color-primary);
+  height: 6rem;
 }
