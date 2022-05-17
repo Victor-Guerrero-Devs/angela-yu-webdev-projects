@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap");
 
 :root {
-  --color-primary: #142d4c;
-  --color-secondary: #385170;
+  --color-primary: #070f1a;
+  --color-secondary: #2a3c53;
   --color-tertiary: #ececec;
   --color-title: #619650;
   --color-sub: #b1ef97;
@@ -50,10 +50,23 @@ body {
   justify-content: space-around;
 }
 
+.column {
+  flex-direction: column;
+}
+
 /* Typography */
 h1 {
   font-family: Pacifico, sans-serif;
   font-size: 5rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 
 /* Hero */
@@ -94,9 +107,30 @@ h1 {
 
 .hero-text-container {
   height: 85%;
-  flex-direction: column;
 }
 
 .hero-subtitle {
   font-size: 1.8rem;
+}
+
+/* About Section */
+.about-me-section {
+  background-color: var(--color-primary);
+  height: 35rem;
+  gap: 1.5rem;
+}
+
+.about-me-section h2 {
+  color: var(--color-tertiary);
+}
+
+.about-me-section p {
+  width: 40%;
+  text-align: center;
+}
+
+.about-img {
+  width: 10rem;
+  background-color: var(--color-tertiary);
+  border-radius: 50%;
 }
