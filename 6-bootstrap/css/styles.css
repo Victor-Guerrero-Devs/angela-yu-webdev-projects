@@ -16,9 +16,18 @@ body {
 
 h1 {
   font-family: "Montserrat", sans-serif;
+  /* establish visual hierarchy by making it way bigger than the nav brand text */
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p {
+  color: grey;
 }
 
 /* Navigation Bar */
@@ -51,4 +60,24 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
